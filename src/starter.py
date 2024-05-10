@@ -11,4 +11,5 @@ def get_foundation_models():
 def get_foundation_model_by_id(id):
     return brclient.get_foundation_model(modelIdentifier=id)
 
-pprint(get_foundation_model_by_id(sys.argv[1]))
+# pprint(get_foundation_model_by_id(sys.argv[1]))
+get_foundation_models()
